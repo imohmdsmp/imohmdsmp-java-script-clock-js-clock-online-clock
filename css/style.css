@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.clock-hand-1,
+.clock-hand-2,
+.clock-hand-3 {
+  position: absolute;
+  display: flex;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+}
+.clock-hand-1 img,
+.clock-hand-2 img,
+.clock-hand-3 img {
+  height: 100%;
+}
+
+.clock-hand-1 {
+  height: 32%;
+}
+
+.clock-hand-2 {
+  height: 27%;
+}
+
+.clock-hand-3 {
+  height: 20%;
+}/*# sourceMappingURL=style.css.map */
